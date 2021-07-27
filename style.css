@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Helvetica;
+    src: url('Free-Sans/FreeSans.ttf');
+}
+html {
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 16px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+.logo {
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+} 
+.navbar {
+    width:100%;
+    height: 69px;
+    background-color: black;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top:0;
+}
+.navbar ul li {
+    font-size: 1.375rem;
+    color:seashell;
+    display: inline-flex;
+    padding: 0 20px;
+    text-decoration: underline;
+}
+.hero {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 700px;
+    background-image: url('images/img-mission-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 auto;
+    
+}
+.hero-item, .tea-text {
+    text-align: center;
+}
+.hero-back {
+    width:100%;
+    height:auto;
+    background-color: black;
+    opacity: 0.9;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.main {
+    text-align: center;
+    margin: 10px;
+}
+
+.main img{
+    width: 300px;
+    height: 200px;
+}
+.location-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.location-section { 
+    width: 1200px;
+    height: 500px;
+    background-image: url(images/img-locations-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.location {
+    width: 300px;
+    height: auto;
+    margin: 15px 20px;
+    background-color: black;
+    opacity:0.9;
+}
+.location-title {
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+.location p, .location h3 {
+    text-align: center;
+}
+.foot {
+    text-align: center;
+    height: 200px;
+    width: auto;
+}
+.rights {
+    text-align: left;
+    margin-left: 20px;
+}
